@@ -1,0 +1,10 @@
+# Artefactos generados por el taller (no se versionan)
+lake/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos grandes de salida
+*.csv
+*.parquet

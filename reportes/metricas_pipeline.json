@@ -1,0 +1,19 @@
+{
+  "archivos_esperados": 30,
+  "archivos_recibidos": 30,
+  "seg_ingesta_landing": 0.039,
+  "seg_bronze": 2.429,
+  "seg_silver": 15.488,
+  "seg_gold": 0.574,
+  "filas_bronze": 181800,
+  "filas_silver": 178639,
+  "filas_cuarentena": 1361,
+  "filas_duplicadas": 1800,
+  "pct_validas_unicas_sobre_bronze": 98.26,
+  "p95_latencia_min": 17.47,
+  "fecha_utc_reporte": "2026-11-10T00:57:44.862699+00:00",
+  "slo_archivos_100pct": true,
+  "pct_validas_sobre_eventos_unicos": 99.24,
+  "slo_calidad_98pct": true,
+  "slo_p95_menor_30min": true
+}
