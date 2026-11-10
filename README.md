@@ -32,13 +32,6 @@ industrial sintética, con capas de **calidad**, **observabilidad** y **FinOps**
 | [reportes/](./reportes) | Reportes y dashboard: `calidad_pipeline.csv`, `metricas_pipeline.json`, `finops_escenarios.csv`, `dashboard_iot.png` | No — se regeneran al ejecutar |
 | `dashboard_iot.png` (raíz) | Captura del panel para diapositivas. La versión viva la regenera el notebook en `reportes/` | Sí |
 
-> **Para distribuir el taller** solo hacen falta el notebook, `generar_datos.py`, `datos_fuente/` y
-> `ARQUITECTURA_CLOUD.md`. Todo lo demás es reproducible ejecutando el notebook.
->
-> ⚠️ Ojo con `.gitignore`: sus reglas `*.csv` y `*.parquet` **excluyen** `datos_fuente/catalogo_equipos.csv`
-> y `datos_fuente/mantenimientos.csv`, que son entradas obligatorias. Si vas a versionar o compartir el
-> taller, verifica que esos dos archivos viajen con el paquete.
-
 **El notebook es autocontenido:** genera, limpia, agrega, grafica y mide. No descarga nada
 ni se conecta a ningún servicio.
 
